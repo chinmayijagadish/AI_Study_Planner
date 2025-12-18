@@ -29,7 +29,6 @@ This project is created as part of learning Android development and will be exte
 ## 📂 Project Structure
 
 AIStudyPlanner/
-│
 ├── app/
 │ ├── src/main/
 │ │ ├── java/com/example/aistudyplanner/
