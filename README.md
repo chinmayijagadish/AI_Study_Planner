@@ -68,3 +68,18 @@ AIStudyPlanner/
 <img width="320" height="644" alt="image" src="https://github.com/user-attachments/assets/4c677006-d31d-4327-92df-4ceff728c1fd" />
 
 <img width="343" height="646" alt="image" src="https://github.com/user-attachments/assets/b75bc2b2-7b70-4400-b079-ddb2ac645c60" />
+
+## 📘 Learning Outcomes
+
+- Understood Android project structure
+- Designed UI using XML and ConstraintLayout
+- Handled user input and validation in Kotlin
+- Implemented button click listeners
+- Used Git and GitHub for version control
+
+## 🔮 Future Enhancements
+
+- Integrate Generative AI API to generate study plans
+- Display generated study plans on a new screen
+- Improve UI using Material Design components
+- Add data persistence for saving plans
