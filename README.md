@@ -47,3 +47,24 @@ AIStudyPlanner/
 ├── settings.gradle.kts
 └── README.md
 ```
+
+## ✨ Features
+
+- Simple and clean Android UI
+- Input fields for subject and study hours
+- Input validation with user feedback
+- Button click handling using Toast messages
+
+## 🧠 How the App Works
+
+1. User enters the subject name and number of study hours per day.
+2. The app validates the inputs to ensure no field is empty.
+3. On button click, a Toast message provides feedback to the user.
+4. This logic is handled inside the MainActivity using Kotlin.
+
+## 📸 Screenshots
+<img width="336" height="638" alt="image" src="https://github.com/user-attachments/assets/9c268677-2ef8-4d48-89f1-0b3ab38b1b0d" />
+
+<img width="320" height="644" alt="image" src="https://github.com/user-attachments/assets/4c677006-d31d-4327-92df-4ceff728c1fd" />
+
+<img width="343" height="646" alt="image" src="https://github.com/user-attachments/assets/b75bc2b2-7b70-4400-b079-ddb2ac645c60" />
