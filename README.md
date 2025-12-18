@@ -27,7 +27,7 @@ This project is created as part of learning Android development and will be exte
 ---
 
 ## 📂 Project Structure
-
+```
 AIStudyPlanner/
 ├── app/
 │ ├── src/main/
@@ -46,4 +46,4 @@ AIStudyPlanner/
 ├── build.gradle.kts # Project-level Gradle config
 ├── settings.gradle.kts
 └── README.md
-
+```
