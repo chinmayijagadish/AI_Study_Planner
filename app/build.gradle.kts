@@ -35,6 +35,18 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    defaultConfig {
+        buildConfigField(
+            "String",
+            "GEMINI_API_KEY",
+            "\"${project.properties["GEMINI_API_KEY"]}\""
+        )
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+
+
 }
 
 dependencies {
@@ -47,4 +59,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.google.android.material:material:1.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
