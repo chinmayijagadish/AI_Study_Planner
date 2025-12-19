@@ -62,6 +62,15 @@ AIStudyPlanner/
 3. On button click, a Toast message provides feedback to the user.
 4. This logic is handled inside the MainActivity using Kotlin.
 
+
+##Changes made
+
+- Replaced text inputs with dropdown-based course and subject selection,
+added slider for study hours, and improved overall user experience.
+- Implemented ResultActivity to display selected course, subject,
+and study hours. Added screen navigation and data passing using Intent.
+
+
 ## 📸 Screenshots
 <img width="336" height="638" alt="image" src="https://github.com/user-attachments/assets/9c268677-2ef8-4d48-89f1-0b3ab38b1b0d" />
 
