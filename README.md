@@ -63,7 +63,7 @@ AIStudyPlanner/
 4. This logic is handled inside the MainActivity using Kotlin.
 
 
-##Changes made
+## Changes made
 
 - Replaced text inputs with dropdown-based course and subject selection,
 added slider for study hours, and improved overall user experience.
