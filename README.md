@@ -64,7 +64,8 @@ AIStudyPlanner/
 
 
 ##Changes made
-Replaced text inputs with dropdown-based course and subject selection,
+
+- Replaced text inputs with dropdown-based course and subject selection,
 added slider for study hours, and improved overall user experience.
 
 ## 📸 Screenshots
