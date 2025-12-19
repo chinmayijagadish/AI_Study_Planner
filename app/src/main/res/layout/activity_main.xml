@@ -2,10 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -17,38 +16,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="24dp"/>
 
-    <EditText
-        android:id="@+id/etSubject"
+    <!-- Course Spinner -->
+    <Spinner
+        android:id="@+id/spCourse"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Enter Subject"
-        android:inputType="text"
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="16dp"/>
+        android:layout_marginTop="24dp"/>
 
-    <EditText
-        android:id="@+id/etHours"
+    <!-- Subject Spinner -->
+    <Spinner
+        android:id="@+id/spSubject"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Hours per day"
-        android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/etSubject"
+        app:layout_constraintTop_toBottomOf="@id/spCourse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="16dp"/>
+        android:layout_marginTop="16dp"/>
+
+    <!-- Hours Slider -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderHours"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:valueFrom="1"
+        android:valueTo="8"
+        android:stepSize="1"
+        app:layout_constraintTop_toBottomOf="@id/spSubject"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours per day: 1"
+        app:layout_constraintTop_toBottomOf="@id/sliderHours"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
 
     <Button
         android:id="@+id/btnGenerate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Generate Study Plan"
-        app:layout_constraintTop_toBottomOf="@id/etHours"
+        app:layout_constraintTop_toBottomOf="@id/tvHours"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
